@@ -16,8 +16,9 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
-    void findMaxAlternative(){
+    void findMaxAlternative() {
         StatisticsService service = new StatisticsService();
 
         long[] incomesInBillions = {-12, -5, -8, 4, 0, 3, 8, 6, -11, -11, -12};
